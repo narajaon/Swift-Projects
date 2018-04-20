@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         }
         
         finalOutput = sender.currentTitle!
-        finalOutput += concatOutput!
+        finalOutput = concatOutput! + finalOutput
         printedInputLabel.text = finalOutput
     }
     
