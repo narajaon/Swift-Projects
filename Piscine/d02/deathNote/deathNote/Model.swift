@@ -2,16 +2,22 @@
 //  Model.swift
 //  deathNote
 //
-//  Created by RAJAONARISON on 25/04/2018.
+//  Created by RAJAONARISON on 26/04/2018.
 //  Copyright © 2018 narajaon. All rights reserved.
 //
 
 import Foundation
 
-struct personToKill {
+class Victim {
     var name : String
-    var description : String
-    var deathDate : Date
+    var desc : String
+    var date : String
+    
+    init (name : String, desc : String, date : String) {
+        self.name = name
+        self.desc = desc
+        self.date = date
+    }
+    
+    static var victimList : [Victim] = []
 }
-
-var listTokill : [personToKill] = [personToKill(name : "FOO", description : "BAR", deathDate : Date(timeIntervalSinceNow: 85000))]

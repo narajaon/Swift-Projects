@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B340EACE2090CB480093C752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B340EACD2090CB480093C752 /* AppDelegate.swift */; };
-		B340EAD02090CB480093C752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B340EACF2090CB480093C752 /* ViewController.swift */; };
-		B340EAD32090CB480093C752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B340EAD12090CB480093C752 /* Main.storyboard */; };
-		B340EAD52090CB490093C752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B340EAD42090CB490093C752 /* Assets.xcassets */; };
-		B340EAD82090CB490093C752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B340EAD62090CB490093C752 /* LaunchScreen.storyboard */; };
-		B340EAE32090CB490093C752 /* deathNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B340EAE22090CB490093C752 /* deathNoteTests.swift */; };
-		B340EAEE2090CB490093C752 /* deathNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B340EAED2090CB490093C752 /* deathNoteUITests.swift */; };
-		B340EAFC2090CFB50093C752 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B340EAFB2090CFB50093C752 /* Model.swift */; };
+		B3CFF57A209220E2000F0F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF579209220E2000F0F39 /* AppDelegate.swift */; };
+		B3CFF57C209220E2000F0F39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF57B209220E2000F0F39 /* ViewController.swift */; };
+		B3CFF57F209220E2000F0F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CFF57D209220E2000F0F39 /* Main.storyboard */; };
+		B3CFF581209220E3000F0F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CFF580209220E3000F0F39 /* Assets.xcassets */; };
+		B3CFF584209220E3000F0F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CFF582209220E3000F0F39 /* LaunchScreen.storyboard */; };
+		B3CFF58F209220E3000F0F39 /* deathNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF58E209220E3000F0F39 /* deathNoteTests.swift */; };
+		B3CFF59A209220E3000F0F39 /* deathNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF599209220E3000F0F39 /* deathNoteUITests.swift */; };
+		B3CFF5A820923313000F0F39 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF5A720923313000F0F39 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B340EADF2090CB490093C752 /* PBXContainerItemProxy */ = {
+		B3CFF58B209220E3000F0F39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B340EAC22090CB480093C752 /* Project object */;
+			containerPortal = B3CFF56E209220E2000F0F39 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B340EAC92090CB480093C752;
+			remoteGlobalIDString = B3CFF575209220E2000F0F39;
 			remoteInfo = deathNote;
 		};
-		B340EAEA2090CB490093C752 /* PBXContainerItemProxy */ = {
+		B3CFF596209220E3000F0F39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B340EAC22090CB480093C752 /* Project object */;
+			containerPortal = B3CFF56E209220E2000F0F39 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B340EAC92090CB480093C752;
+			remoteGlobalIDString = B3CFF575209220E2000F0F39;
 			remoteInfo = deathNote;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B340EACA2090CB480093C752 /* deathNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deathNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B340EACD2090CB480093C752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B340EACF2090CB480093C752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B340EAD22090CB480093C752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B340EAD42090CB490093C752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B340EAD72090CB490093C752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B340EAD92090CB490093C752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B340EADE2090CB490093C752 /* deathNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deathNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B340EAE22090CB490093C752 /* deathNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deathNoteTests.swift; sourceTree = "<group>"; };
-		B340EAE42090CB490093C752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B340EAE92090CB490093C752 /* deathNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deathNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B340EAED2090CB490093C752 /* deathNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deathNoteUITests.swift; sourceTree = "<group>"; };
-		B340EAEF2090CB490093C752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B340EAFB2090CFB50093C752 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B3CFF576209220E2000F0F39 /* deathNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deathNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CFF579209220E2000F0F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3CFF57B209220E2000F0F39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3CFF57E209220E2000F0F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3CFF580209220E3000F0F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3CFF583209220E3000F0F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3CFF585209220E3000F0F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CFF58A209220E3000F0F39 /* deathNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deathNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CFF58E209220E3000F0F39 /* deathNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deathNoteTests.swift; sourceTree = "<group>"; };
+		B3CFF590209220E3000F0F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CFF595209220E3000F0F39 /* deathNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deathNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CFF599209220E3000F0F39 /* deathNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deathNoteUITests.swift; sourceTree = "<group>"; };
+		B3CFF59B209220E3000F0F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CFF5A720923313000F0F39 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B340EAC72090CB480093C752 /* Frameworks */ = {
+		B3CFF573209220E2000F0F39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B340EADB2090CB490093C752 /* Frameworks */ = {
+		B3CFF587209220E3000F0F39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B340EAE62090CB490093C752 /* Frameworks */ = {
+		B3CFF592209220E3000F0F39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B340EAC12090CB480093C752 = {
+		B3CFF56D209220E2000F0F39 = {
 			isa = PBXGroup;
 			children = (
-				B340EACC2090CB480093C752 /* deathNote */,
-				B340EAE12090CB490093C752 /* deathNoteTests */,
-				B340EAEC2090CB490093C752 /* deathNoteUITests */,
-				B340EACB2090CB480093C752 /* Products */,
+				B3CFF578209220E2000F0F39 /* deathNote */,
+				B3CFF58D209220E3000F0F39 /* deathNoteTests */,
+				B3CFF598209220E3000F0F39 /* deathNoteUITests */,
+				B3CFF577209220E2000F0F39 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B340EACB2090CB480093C752 /* Products */ = {
+		B3CFF577209220E2000F0F39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B340EACA2090CB480093C752 /* deathNote.app */,
-				B340EADE2090CB490093C752 /* deathNoteTests.xctest */,
-				B340EAE92090CB490093C752 /* deathNoteUITests.xctest */,
+				B3CFF576209220E2000F0F39 /* deathNote.app */,
+				B3CFF58A209220E3000F0F39 /* deathNoteTests.xctest */,
+				B3CFF595209220E3000F0F39 /* deathNoteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B340EACC2090CB480093C752 /* deathNote */ = {
+		B3CFF578209220E2000F0F39 /* deathNote */ = {
 			isa = PBXGroup;
 			children = (
-				B340EACD2090CB480093C752 /* AppDelegate.swift */,
-				B340EACF2090CB480093C752 /* ViewController.swift */,
-				B340EAD12090CB480093C752 /* Main.storyboard */,
-				B340EAFB2090CFB50093C752 /* Model.swift */,
-				B340EAD42090CB490093C752 /* Assets.xcassets */,
-				B340EAD62090CB490093C752 /* LaunchScreen.storyboard */,
-				B340EAD92090CB490093C752 /* Info.plist */,
+				B3CFF579209220E2000F0F39 /* AppDelegate.swift */,
+				B3CFF57B209220E2000F0F39 /* ViewController.swift */,
+				B3CFF57D209220E2000F0F39 /* Main.storyboard */,
+				B3CFF5A720923313000F0F39 /* Model.swift */,
+				B3CFF580209220E3000F0F39 /* Assets.xcassets */,
+				B3CFF582209220E3000F0F39 /* LaunchScreen.storyboard */,
+				B3CFF585209220E3000F0F39 /* Info.plist */,
 			);
 			path = deathNote;
 			sourceTree = "<group>";
 		};
-		B340EAE12090CB490093C752 /* deathNoteTests */ = {
+		B3CFF58D209220E3000F0F39 /* deathNoteTests */ = {
 			isa = PBXGroup;
 			children = (
-				B340EAE22090CB490093C752 /* deathNoteTests.swift */,
-				B340EAE42090CB490093C752 /* Info.plist */,
+				B3CFF58E209220E3000F0F39 /* deathNoteTests.swift */,
+				B3CFF590209220E3000F0F39 /* Info.plist */,
 			);
 			path = deathNoteTests;
 			sourceTree = "<group>";
 		};
-		B340EAEC2090CB490093C752 /* deathNoteUITests */ = {
+		B3CFF598209220E3000F0F39 /* deathNoteUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B340EAED2090CB490093C752 /* deathNoteUITests.swift */,
-				B340EAEF2090CB490093C752 /* Info.plist */,
+				B3CFF599209220E3000F0F39 /* deathNoteUITests.swift */,
+				B3CFF59B209220E3000F0F39 /* Info.plist */,
 			);
 			path = deathNoteUITests;
 			sourceTree = "<group>";
@@ -131,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B340EAC92090CB480093C752 /* deathNote */ = {
+		B3CFF575209220E2000F0F39 /* deathNote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B340EAF22090CB490093C752 /* Build configuration list for PBXNativeTarget "deathNote" */;
+			buildConfigurationList = B3CFF59E209220E3000F0F39 /* Build configuration list for PBXNativeTarget "deathNote" */;
 			buildPhases = (
-				B340EAC62090CB480093C752 /* Sources */,
-				B340EAC72090CB480093C752 /* Frameworks */,
-				B340EAC82090CB480093C752 /* Resources */,
+				B3CFF572209220E2000F0F39 /* Sources */,
+				B3CFF573209220E2000F0F39 /* Frameworks */,
+				B3CFF574209220E2000F0F39 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,69 +145,69 @@
 			);
 			name = deathNote;
 			productName = deathNote;
-			productReference = B340EACA2090CB480093C752 /* deathNote.app */;
+			productReference = B3CFF576209220E2000F0F39 /* deathNote.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B340EADD2090CB490093C752 /* deathNoteTests */ = {
+		B3CFF589209220E3000F0F39 /* deathNoteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B340EAF52090CB490093C752 /* Build configuration list for PBXNativeTarget "deathNoteTests" */;
+			buildConfigurationList = B3CFF5A1209220E3000F0F39 /* Build configuration list for PBXNativeTarget "deathNoteTests" */;
 			buildPhases = (
-				B340EADA2090CB490093C752 /* Sources */,
-				B340EADB2090CB490093C752 /* Frameworks */,
-				B340EADC2090CB490093C752 /* Resources */,
+				B3CFF586209220E3000F0F39 /* Sources */,
+				B3CFF587209220E3000F0F39 /* Frameworks */,
+				B3CFF588209220E3000F0F39 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B340EAE02090CB490093C752 /* PBXTargetDependency */,
+				B3CFF58C209220E3000F0F39 /* PBXTargetDependency */,
 			);
 			name = deathNoteTests;
 			productName = deathNoteTests;
-			productReference = B340EADE2090CB490093C752 /* deathNoteTests.xctest */;
+			productReference = B3CFF58A209220E3000F0F39 /* deathNoteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B340EAE82090CB490093C752 /* deathNoteUITests */ = {
+		B3CFF594209220E3000F0F39 /* deathNoteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B340EAF82090CB490093C752 /* Build configuration list for PBXNativeTarget "deathNoteUITests" */;
+			buildConfigurationList = B3CFF5A4209220E3000F0F39 /* Build configuration list for PBXNativeTarget "deathNoteUITests" */;
 			buildPhases = (
-				B340EAE52090CB490093C752 /* Sources */,
-				B340EAE62090CB490093C752 /* Frameworks */,
-				B340EAE72090CB490093C752 /* Resources */,
+				B3CFF591209220E3000F0F39 /* Sources */,
+				B3CFF592209220E3000F0F39 /* Frameworks */,
+				B3CFF593209220E3000F0F39 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B340EAEB2090CB490093C752 /* PBXTargetDependency */,
+				B3CFF597209220E3000F0F39 /* PBXTargetDependency */,
 			);
 			name = deathNoteUITests;
 			productName = deathNoteUITests;
-			productReference = B340EAE92090CB490093C752 /* deathNoteUITests.xctest */;
+			productReference = B3CFF595209220E3000F0F39 /* deathNoteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B340EAC22090CB480093C752 /* Project object */ = {
+		B3CFF56E209220E2000F0F39 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = narajaon;
 				TargetAttributes = {
-					B340EAC92090CB480093C752 = {
+					B3CFF575209220E2000F0F39 = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					B340EADD2090CB490093C752 = {
+					B3CFF589209220E3000F0F39 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = B340EAC92090CB480093C752;
+						TestTargetID = B3CFF575209220E2000F0F39;
 					};
-					B340EAE82090CB490093C752 = {
+					B3CFF594209220E3000F0F39 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = B340EAC92090CB480093C752;
+						TestTargetID = B3CFF575209220E2000F0F39;
 					};
 				};
 			};
-			buildConfigurationList = B340EAC52090CB480093C752 /* Build configuration list for PBXProject "deathNote" */;
+			buildConfigurationList = B3CFF571209220E2000F0F39 /* Build configuration list for PBXProject "deathNote" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = B340EAC12090CB480093C752;
-			productRefGroup = B340EACB2090CB480093C752 /* Products */;
+			mainGroup = B3CFF56D209220E2000F0F39;
+			productRefGroup = B3CFF577209220E2000F0F39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B340EAC92090CB480093C752 /* deathNote */,
-				B340EADD2090CB490093C752 /* deathNoteTests */,
-				B340EAE82090CB490093C752 /* deathNoteUITests */,
+				B3CFF575209220E2000F0F39 /* deathNote */,
+				B3CFF589209220E3000F0F39 /* deathNoteTests */,
+				B3CFF594209220E3000F0F39 /* deathNoteUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B340EAC82090CB480093C752 /* Resources */ = {
+		B3CFF574209220E2000F0F39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B340EAD82090CB490093C752 /* LaunchScreen.storyboard in Resources */,
-				B340EAD52090CB490093C752 /* Assets.xcassets in Resources */,
-				B340EAD32090CB480093C752 /* Main.storyboard in Resources */,
+				B3CFF584209220E3000F0F39 /* LaunchScreen.storyboard in Resources */,
+				B3CFF581209220E3000F0F39 /* Assets.xcassets in Resources */,
+				B3CFF57F209220E2000F0F39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B340EADC2090CB490093C752 /* Resources */ = {
+		B3CFF588209220E3000F0F39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B340EAE72090CB490093C752 /* Resources */ = {
+		B3CFF593209220E3000F0F39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B340EAC62090CB480093C752 /* Sources */ = {
+		B3CFF572209220E2000F0F39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B340EAFC2090CFB50093C752 /* Model.swift in Sources */,
-				B340EAD02090CB480093C752 /* ViewController.swift in Sources */,
-				B340EACE2090CB480093C752 /* AppDelegate.swift in Sources */,
+				B3CFF5A820923313000F0F39 /* Model.swift in Sources */,
+				B3CFF57C209220E2000F0F39 /* ViewController.swift in Sources */,
+				B3CFF57A209220E2000F0F39 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B340EADA2090CB490093C752 /* Sources */ = {
+		B3CFF586209220E3000F0F39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B340EAE32090CB490093C752 /* deathNoteTests.swift in Sources */,
+				B3CFF58F209220E3000F0F39 /* deathNoteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B340EAE52090CB490093C752 /* Sources */ = {
+		B3CFF591209220E3000F0F39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B340EAEE2090CB490093C752 /* deathNoteUITests.swift in Sources */,
+				B3CFF59A209220E3000F0F39 /* deathNoteUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B340EAE02090CB490093C752 /* PBXTargetDependency */ = {
+		B3CFF58C209220E3000F0F39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B340EAC92090CB480093C752 /* deathNote */;
-			targetProxy = B340EADF2090CB490093C752 /* PBXContainerItemProxy */;
+			target = B3CFF575209220E2000F0F39 /* deathNote */;
+			targetProxy = B3CFF58B209220E3000F0F39 /* PBXContainerItemProxy */;
 		};
-		B340EAEB2090CB490093C752 /* PBXTargetDependency */ = {
+		B3CFF597209220E3000F0F39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B340EAC92090CB480093C752 /* deathNote */;
-			targetProxy = B340EAEA2090CB490093C752 /* PBXContainerItemProxy */;
+			target = B3CFF575209220E2000F0F39 /* deathNote */;
+			targetProxy = B3CFF596209220E3000F0F39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B340EAD12090CB480093C752 /* Main.storyboard */ = {
+		B3CFF57D209220E2000F0F39 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B340EAD22090CB480093C752 /* Base */,
+				B3CFF57E209220E2000F0F39 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B340EAD62090CB490093C752 /* LaunchScreen.storyboard */ = {
+		B3CFF582209220E3000F0F39 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B340EAD72090CB490093C752 /* Base */,
+				B3CFF583209220E3000F0F39 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B340EAF02090CB490093C752 /* Debug */ = {
+		B3CFF59C209220E3000F0F39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		B340EAF12090CB490093C752 /* Release */ = {
+		B3CFF59D209220E3000F0F39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,7 +430,7 @@
 			};
 			name = Release;
 		};
-		B340EAF32090CB490093C752 /* Debug */ = {
+		B3CFF59F209220E3000F0F39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -447,7 +447,7 @@
 			};
 			name = Debug;
 		};
-		B340EAF42090CB490093C752 /* Release */ = {
+		B3CFF5A0209220E3000F0F39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -464,7 +464,7 @@
 			};
 			name = Release;
 		};
-		B340EAF62090CB490093C752 /* Debug */ = {
+		B3CFF5A2209220E3000F0F39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -484,7 +484,7 @@
 			};
 			name = Debug;
 		};
-		B340EAF72090CB490093C752 /* Release */ = {
+		B3CFF5A3209220E3000F0F39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -504,7 +504,7 @@
 			};
 			name = Release;
 		};
-		B340EAF92090CB490093C752 /* Debug */ = {
+		B3CFF5A5209220E3000F0F39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -523,7 +523,7 @@
 			};
 			name = Debug;
 		};
-		B340EAFA2090CB490093C752 /* Release */ = {
+		B3CFF5A6209220E3000F0F39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -545,43 +545,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B340EAC52090CB480093C752 /* Build configuration list for PBXProject "deathNote" */ = {
+		B3CFF571209220E2000F0F39 /* Build configuration list for PBXProject "deathNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B340EAF02090CB490093C752 /* Debug */,
-				B340EAF12090CB490093C752 /* Release */,
+				B3CFF59C209220E3000F0F39 /* Debug */,
+				B3CFF59D209220E3000F0F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B340EAF22090CB490093C752 /* Build configuration list for PBXNativeTarget "deathNote" */ = {
+		B3CFF59E209220E3000F0F39 /* Build configuration list for PBXNativeTarget "deathNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B340EAF32090CB490093C752 /* Debug */,
-				B340EAF42090CB490093C752 /* Release */,
+				B3CFF59F209220E3000F0F39 /* Debug */,
+				B3CFF5A0209220E3000F0F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B340EAF52090CB490093C752 /* Build configuration list for PBXNativeTarget "deathNoteTests" */ = {
+		B3CFF5A1209220E3000F0F39 /* Build configuration list for PBXNativeTarget "deathNoteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B340EAF62090CB490093C752 /* Debug */,
-				B340EAF72090CB490093C752 /* Release */,
+				B3CFF5A2209220E3000F0F39 /* Debug */,
+				B3CFF5A3209220E3000F0F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B340EAF82090CB490093C752 /* Build configuration list for PBXNativeTarget "deathNoteUITests" */ = {
+		B3CFF5A4209220E3000F0F39 /* Build configuration list for PBXNativeTarget "deathNoteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B340EAF92090CB490093C752 /* Debug */,
-				B340EAFA2090CB490093C752 /* Release */,
+				B3CFF5A5209220E3000F0F39 /* Debug */,
+				B3CFF5A6209220E3000F0F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B340EAC22090CB480093C752 /* Project object */;
+	rootObject = B3CFF56E209220E2000F0F39 /* Project object */;
 }
