@@ -18,6 +18,7 @@ class Victim {
         self.desc = desc
         self.date = date
     }
-    
-    static var victimList : [Victim] = []
+
 }
+
+var VictimList : [Victim] = []

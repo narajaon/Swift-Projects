@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B347BABC209326FE002E6372 /* VictimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347BABB209326FE002E6372 /* VictimTableViewCell.swift */; };
 		B3CFF57A209220E2000F0F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF579209220E2000F0F39 /* AppDelegate.swift */; };
 		B3CFF57C209220E2000F0F39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF57B209220E2000F0F39 /* ViewController.swift */; };
 		B3CFF57F209220E2000F0F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CFF57D209220E2000F0F39 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B347BABB209326FE002E6372 /* VictimTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictimTableViewCell.swift; sourceTree = "<group>"; };
 		B3CFF576209220E2000F0F39 /* deathNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deathNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CFF579209220E2000F0F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3CFF57B209220E2000F0F39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				B3CFF57B209220E2000F0F39 /* ViewController.swift */,
 				B3CFF57D209220E2000F0F39 /* Main.storyboard */,
 				B3CFF5A720923313000F0F39 /* Model.swift */,
+				B347BABB209326FE002E6372 /* VictimTableViewCell.swift */,
 				B3CFF580209220E3000F0F39 /* Assets.xcassets */,
 				B3CFF582209220E3000F0F39 /* LaunchScreen.storyboard */,
 				B3CFF585209220E3000F0F39 /* Info.plist */,
@@ -262,6 +265,7 @@
 				B3CFF5A820923313000F0F39 /* Model.swift in Sources */,
 				B3CFF57C209220E2000F0F39 /* ViewController.swift in Sources */,
 				B3CFF57A209220E2000F0F39 /* AppDelegate.swift in Sources */,
+				B347BABC209326FE002E6372 /* VictimTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
