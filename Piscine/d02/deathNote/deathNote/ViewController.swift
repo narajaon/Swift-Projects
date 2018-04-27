@@ -20,8 +20,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableView: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-
         addDefaultCell()
+        
         return VictimList.count
     }
 
@@ -31,5 +31,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.victimClass = VictimList[indexPath.row]
 
         return cell
+    }
+    
+    @IBAction func unWindSegue(segue : UIStoryboardSegue) {
+        print(segue.identifier ?? "No title")
     }
 }
