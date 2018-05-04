@@ -7,68 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B347BABC209326FE002E6372 /* VictimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347BABB209326FE002E6372 /* VictimTableViewCell.swift */; };
-		B3CFF57A209220E2000F0F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF579209220E2000F0F39 /* AppDelegate.swift */; };
-		B3CFF57C209220E2000F0F39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF57B209220E2000F0F39 /* ViewController.swift */; };
-		B3CFF57F209220E2000F0F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CFF57D209220E2000F0F39 /* Main.storyboard */; };
-		B3CFF581209220E3000F0F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CFF580209220E3000F0F39 /* Assets.xcassets */; };
-		B3CFF584209220E3000F0F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CFF582209220E3000F0F39 /* LaunchScreen.storyboard */; };
-		B3CFF58F209220E3000F0F39 /* deathNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF58E209220E3000F0F39 /* deathNoteTests.swift */; };
-		B3CFF59A209220E3000F0F39 /* deathNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF599209220E3000F0F39 /* deathNoteUITests.swift */; };
-		B3CFF5A820923313000F0F39 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF5A720923313000F0F39 /* Model.swift */; };
+		B3289A9F209CAD4400B948D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3289A9E209CAD4400B948D9 /* AppDelegate.swift */; };
+		B3289AA1209CAD4400B948D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3289AA0209CAD4400B948D9 /* ViewController.swift */; };
+		B3289AA4209CAD4400B948D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3289AA2209CAD4400B948D9 /* Main.storyboard */; };
+		B3289AA6209CAD4500B948D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3289AA5209CAD4500B948D9 /* Assets.xcassets */; };
+		B3289AA9209CAD4500B948D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3289AA7209CAD4500B948D9 /* LaunchScreen.storyboard */; };
+		B3289AB4209CAD4600B948D9 /* deathNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3289AB3209CAD4600B948D9 /* deathNoteTests.swift */; };
+		B3289ABF209CAD4600B948D9 /* deathNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3289ABE209CAD4600B948D9 /* deathNoteUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B3CFF58B209220E3000F0F39 /* PBXContainerItemProxy */ = {
+		B3289AB0209CAD4600B948D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B3CFF56E209220E2000F0F39 /* Project object */;
+			containerPortal = B3289A93209CAD4400B948D9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B3CFF575209220E2000F0F39;
+			remoteGlobalIDString = B3289A9A209CAD4400B948D9;
 			remoteInfo = deathNote;
 		};
-		B3CFF596209220E3000F0F39 /* PBXContainerItemProxy */ = {
+		B3289ABB209CAD4600B948D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B3CFF56E209220E2000F0F39 /* Project object */;
+			containerPortal = B3289A93209CAD4400B948D9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B3CFF575209220E2000F0F39;
+			remoteGlobalIDString = B3289A9A209CAD4400B948D9;
 			remoteInfo = deathNote;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B347BABB209326FE002E6372 /* VictimTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictimTableViewCell.swift; sourceTree = "<group>"; };
-		B3CFF576209220E2000F0F39 /* deathNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deathNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3CFF579209220E2000F0F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3CFF57B209220E2000F0F39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B3CFF57E209220E2000F0F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B3CFF580209220E3000F0F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B3CFF583209220E3000F0F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B3CFF585209220E3000F0F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3CFF58A209220E3000F0F39 /* deathNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deathNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3CFF58E209220E3000F0F39 /* deathNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deathNoteTests.swift; sourceTree = "<group>"; };
-		B3CFF590209220E3000F0F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3CFF595209220E3000F0F39 /* deathNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deathNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3CFF599209220E3000F0F39 /* deathNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deathNoteUITests.swift; sourceTree = "<group>"; };
-		B3CFF59B209220E3000F0F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3CFF5A720923313000F0F39 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B3289A9B209CAD4400B948D9 /* deathNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deathNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3289A9E209CAD4400B948D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3289AA0209CAD4400B948D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3289AA3209CAD4400B948D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3289AA5209CAD4500B948D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3289AA8209CAD4500B948D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3289AAA209CAD4500B948D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3289AAF209CAD4600B948D9 /* deathNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deathNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3289AB3209CAD4600B948D9 /* deathNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deathNoteTests.swift; sourceTree = "<group>"; };
+		B3289AB5209CAD4600B948D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3289ABA209CAD4600B948D9 /* deathNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deathNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3289ABE209CAD4600B948D9 /* deathNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deathNoteUITests.swift; sourceTree = "<group>"; };
+		B3289AC0209CAD4600B948D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B3CFF573209220E2000F0F39 /* Frameworks */ = {
+		B3289A98209CAD4400B948D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3CFF587209220E3000F0F39 /* Frameworks */ = {
+		B3289AAC209CAD4600B948D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3CFF592209220E3000F0F39 /* Frameworks */ = {
+		B3289AB7209CAD4600B948D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,55 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B3CFF56D209220E2000F0F39 = {
+		B3289A92209CAD4400B948D9 = {
 			isa = PBXGroup;
 			children = (
-				B3CFF578209220E2000F0F39 /* deathNote */,
-				B3CFF58D209220E3000F0F39 /* deathNoteTests */,
-				B3CFF598209220E3000F0F39 /* deathNoteUITests */,
-				B3CFF577209220E2000F0F39 /* Products */,
+				B3289A9D209CAD4400B948D9 /* deathNote */,
+				B3289AB2209CAD4600B948D9 /* deathNoteTests */,
+				B3289ABD209CAD4600B948D9 /* deathNoteUITests */,
+				B3289A9C209CAD4400B948D9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B3CFF577209220E2000F0F39 /* Products */ = {
+		B3289A9C209CAD4400B948D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3CFF576209220E2000F0F39 /* deathNote.app */,
-				B3CFF58A209220E3000F0F39 /* deathNoteTests.xctest */,
-				B3CFF595209220E3000F0F39 /* deathNoteUITests.xctest */,
+				B3289A9B209CAD4400B948D9 /* deathNote.app */,
+				B3289AAF209CAD4600B948D9 /* deathNoteTests.xctest */,
+				B3289ABA209CAD4600B948D9 /* deathNoteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3CFF578209220E2000F0F39 /* deathNote */ = {
+		B3289A9D209CAD4400B948D9 /* deathNote */ = {
 			isa = PBXGroup;
 			children = (
-				B3CFF579209220E2000F0F39 /* AppDelegate.swift */,
-				B3CFF57B209220E2000F0F39 /* ViewController.swift */,
-				B3CFF57D209220E2000F0F39 /* Main.storyboard */,
-				B3CFF5A720923313000F0F39 /* Model.swift */,
-				B347BABB209326FE002E6372 /* VictimTableViewCell.swift */,
-				B3CFF580209220E3000F0F39 /* Assets.xcassets */,
-				B3CFF582209220E3000F0F39 /* LaunchScreen.storyboard */,
-				B3CFF585209220E3000F0F39 /* Info.plist */,
+				B3289A9E209CAD4400B948D9 /* AppDelegate.swift */,
+				B3289AA0209CAD4400B948D9 /* ViewController.swift */,
+				B3289AA2209CAD4400B948D9 /* Main.storyboard */,
+				B3289AA5209CAD4500B948D9 /* Assets.xcassets */,
+				B3289AA7209CAD4500B948D9 /* LaunchScreen.storyboard */,
+				B3289AAA209CAD4500B948D9 /* Info.plist */,
 			);
 			path = deathNote;
 			sourceTree = "<group>";
 		};
-		B3CFF58D209220E3000F0F39 /* deathNoteTests */ = {
+		B3289AB2209CAD4600B948D9 /* deathNoteTests */ = {
 			isa = PBXGroup;
 			children = (
-				B3CFF58E209220E3000F0F39 /* deathNoteTests.swift */,
-				B3CFF590209220E3000F0F39 /* Info.plist */,
+				B3289AB3209CAD4600B948D9 /* deathNoteTests.swift */,
+				B3289AB5209CAD4600B948D9 /* Info.plist */,
 			);
 			path = deathNoteTests;
 			sourceTree = "<group>";
 		};
-		B3CFF598209220E3000F0F39 /* deathNoteUITests */ = {
+		B3289ABD209CAD4600B948D9 /* deathNoteUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B3CFF599209220E3000F0F39 /* deathNoteUITests.swift */,
-				B3CFF59B209220E3000F0F39 /* Info.plist */,
+				B3289ABE209CAD4600B948D9 /* deathNoteUITests.swift */,
+				B3289AC0209CAD4600B948D9 /* Info.plist */,
 			);
 			path = deathNoteUITests;
 			sourceTree = "<group>";
@@ -134,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3CFF575209220E2000F0F39 /* deathNote */ = {
+		B3289A9A209CAD4400B948D9 /* deathNote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3CFF59E209220E3000F0F39 /* Build configuration list for PBXNativeTarget "deathNote" */;
+			buildConfigurationList = B3289AC3209CAD4600B948D9 /* Build configuration list for PBXNativeTarget "deathNote" */;
 			buildPhases = (
-				B3CFF572209220E2000F0F39 /* Sources */,
-				B3CFF573209220E2000F0F39 /* Frameworks */,
-				B3CFF574209220E2000F0F39 /* Resources */,
+				B3289A97209CAD4400B948D9 /* Sources */,
+				B3289A98209CAD4400B948D9 /* Frameworks */,
+				B3289A99209CAD4400B948D9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,69 +142,69 @@
 			);
 			name = deathNote;
 			productName = deathNote;
-			productReference = B3CFF576209220E2000F0F39 /* deathNote.app */;
+			productReference = B3289A9B209CAD4400B948D9 /* deathNote.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B3CFF589209220E3000F0F39 /* deathNoteTests */ = {
+		B3289AAE209CAD4600B948D9 /* deathNoteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3CFF5A1209220E3000F0F39 /* Build configuration list for PBXNativeTarget "deathNoteTests" */;
+			buildConfigurationList = B3289AC6209CAD4600B948D9 /* Build configuration list for PBXNativeTarget "deathNoteTests" */;
 			buildPhases = (
-				B3CFF586209220E3000F0F39 /* Sources */,
-				B3CFF587209220E3000F0F39 /* Frameworks */,
-				B3CFF588209220E3000F0F39 /* Resources */,
+				B3289AAB209CAD4600B948D9 /* Sources */,
+				B3289AAC209CAD4600B948D9 /* Frameworks */,
+				B3289AAD209CAD4600B948D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B3CFF58C209220E3000F0F39 /* PBXTargetDependency */,
+				B3289AB1209CAD4600B948D9 /* PBXTargetDependency */,
 			);
 			name = deathNoteTests;
 			productName = deathNoteTests;
-			productReference = B3CFF58A209220E3000F0F39 /* deathNoteTests.xctest */;
+			productReference = B3289AAF209CAD4600B948D9 /* deathNoteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B3CFF594209220E3000F0F39 /* deathNoteUITests */ = {
+		B3289AB9209CAD4600B948D9 /* deathNoteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3CFF5A4209220E3000F0F39 /* Build configuration list for PBXNativeTarget "deathNoteUITests" */;
+			buildConfigurationList = B3289AC9209CAD4600B948D9 /* Build configuration list for PBXNativeTarget "deathNoteUITests" */;
 			buildPhases = (
-				B3CFF591209220E3000F0F39 /* Sources */,
-				B3CFF592209220E3000F0F39 /* Frameworks */,
-				B3CFF593209220E3000F0F39 /* Resources */,
+				B3289AB6209CAD4600B948D9 /* Sources */,
+				B3289AB7209CAD4600B948D9 /* Frameworks */,
+				B3289AB8209CAD4600B948D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B3CFF597209220E3000F0F39 /* PBXTargetDependency */,
+				B3289ABC209CAD4600B948D9 /* PBXTargetDependency */,
 			);
 			name = deathNoteUITests;
 			productName = deathNoteUITests;
-			productReference = B3CFF595209220E3000F0F39 /* deathNoteUITests.xctest */;
+			productReference = B3289ABA209CAD4600B948D9 /* deathNoteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B3CFF56E209220E2000F0F39 /* Project object */ = {
+		B3289A93209CAD4400B948D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = narajaon;
 				TargetAttributes = {
-					B3CFF575209220E2000F0F39 = {
+					B3289A9A209CAD4400B948D9 = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					B3CFF589209220E3000F0F39 = {
+					B3289AAE209CAD4600B948D9 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = B3CFF575209220E2000F0F39;
+						TestTargetID = B3289A9A209CAD4400B948D9;
 					};
-					B3CFF594209220E3000F0F39 = {
+					B3289AB9209CAD4600B948D9 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = B3CFF575209220E2000F0F39;
+						TestTargetID = B3289A9A209CAD4400B948D9;
 					};
 				};
 			};
-			buildConfigurationList = B3CFF571209220E2000F0F39 /* Build configuration list for PBXProject "deathNote" */;
+			buildConfigurationList = B3289A96209CAD4400B948D9 /* Build configuration list for PBXProject "deathNote" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = B3CFF56D209220E2000F0F39;
-			productRefGroup = B3CFF577209220E2000F0F39 /* Products */;
+			mainGroup = B3289A92209CAD4400B948D9;
+			productRefGroup = B3289A9C209CAD4400B948D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3CFF575209220E2000F0F39 /* deathNote */,
-				B3CFF589209220E3000F0F39 /* deathNoteTests */,
-				B3CFF594209220E3000F0F39 /* deathNoteUITests */,
+				B3289A9A209CAD4400B948D9 /* deathNote */,
+				B3289AAE209CAD4600B948D9 /* deathNoteTests */,
+				B3289AB9209CAD4600B948D9 /* deathNoteUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B3CFF574209220E2000F0F39 /* Resources */ = {
+		B3289A99209CAD4400B948D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3CFF584209220E3000F0F39 /* LaunchScreen.storyboard in Resources */,
-				B3CFF581209220E3000F0F39 /* Assets.xcassets in Resources */,
-				B3CFF57F209220E2000F0F39 /* Main.storyboard in Resources */,
+				B3289AA9209CAD4500B948D9 /* LaunchScreen.storyboard in Resources */,
+				B3289AA6209CAD4500B948D9 /* Assets.xcassets in Resources */,
+				B3289AA4209CAD4400B948D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3CFF588209220E3000F0F39 /* Resources */ = {
+		B3289AAD209CAD4600B948D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3CFF593209220E3000F0F39 /* Resources */ = {
+		B3289AB8209CAD4600B948D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,61 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B3CFF572209220E2000F0F39 /* Sources */ = {
+		B3289A97209CAD4400B948D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3CFF5A820923313000F0F39 /* Model.swift in Sources */,
-				B3CFF57C209220E2000F0F39 /* ViewController.swift in Sources */,
-				B3CFF57A209220E2000F0F39 /* AppDelegate.swift in Sources */,
-				B347BABC209326FE002E6372 /* VictimTableViewCell.swift in Sources */,
+				B3289AA1209CAD4400B948D9 /* ViewController.swift in Sources */,
+				B3289A9F209CAD4400B948D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3CFF586209220E3000F0F39 /* Sources */ = {
+		B3289AAB209CAD4600B948D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3CFF58F209220E3000F0F39 /* deathNoteTests.swift in Sources */,
+				B3289AB4209CAD4600B948D9 /* deathNoteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3CFF591209220E3000F0F39 /* Sources */ = {
+		B3289AB6209CAD4600B948D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3CFF59A209220E3000F0F39 /* deathNoteUITests.swift in Sources */,
+				B3289ABF209CAD4600B948D9 /* deathNoteUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B3CFF58C209220E3000F0F39 /* PBXTargetDependency */ = {
+		B3289AB1209CAD4600B948D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B3CFF575209220E2000F0F39 /* deathNote */;
-			targetProxy = B3CFF58B209220E3000F0F39 /* PBXContainerItemProxy */;
+			target = B3289A9A209CAD4400B948D9 /* deathNote */;
+			targetProxy = B3289AB0209CAD4600B948D9 /* PBXContainerItemProxy */;
 		};
-		B3CFF597209220E3000F0F39 /* PBXTargetDependency */ = {
+		B3289ABC209CAD4600B948D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B3CFF575209220E2000F0F39 /* deathNote */;
-			targetProxy = B3CFF596209220E3000F0F39 /* PBXContainerItemProxy */;
+			target = B3289A9A209CAD4400B948D9 /* deathNote */;
+			targetProxy = B3289ABB209CAD4600B948D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B3CFF57D209220E2000F0F39 /* Main.storyboard */ = {
+		B3289AA2209CAD4400B948D9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B3CFF57E209220E2000F0F39 /* Base */,
+				B3289AA3209CAD4400B948D9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B3CFF582209220E3000F0F39 /* LaunchScreen.storyboard */ = {
+		B3289AA7209CAD4500B948D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B3CFF583209220E3000F0F39 /* Base */,
+				B3289AA8209CAD4500B948D9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B3CFF59C209220E3000F0F39 /* Debug */ = {
+		B3289AC1209CAD4600B948D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		B3CFF59D209220E3000F0F39 /* Release */ = {
+		B3289AC2209CAD4600B948D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,7 +426,7 @@
 			};
 			name = Release;
 		};
-		B3CFF59F209220E3000F0F39 /* Debug */ = {
+		B3289AC4209CAD4600B948D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -451,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		B3CFF5A0209220E3000F0F39 /* Release */ = {
+		B3289AC5209CAD4600B948D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -468,7 +460,7 @@
 			};
 			name = Release;
 		};
-		B3CFF5A2209220E3000F0F39 /* Debug */ = {
+		B3289AC7209CAD4600B948D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -488,7 +480,7 @@
 			};
 			name = Debug;
 		};
-		B3CFF5A3209220E3000F0F39 /* Release */ = {
+		B3289AC8209CAD4600B948D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -508,7 +500,7 @@
 			};
 			name = Release;
 		};
-		B3CFF5A5209220E3000F0F39 /* Debug */ = {
+		B3289ACA209CAD4600B948D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -527,7 +519,7 @@
 			};
 			name = Debug;
 		};
-		B3CFF5A6209220E3000F0F39 /* Release */ = {
+		B3289ACB209CAD4600B948D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -549,43 +541,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B3CFF571209220E2000F0F39 /* Build configuration list for PBXProject "deathNote" */ = {
+		B3289A96209CAD4400B948D9 /* Build configuration list for PBXProject "deathNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3CFF59C209220E3000F0F39 /* Debug */,
-				B3CFF59D209220E3000F0F39 /* Release */,
+				B3289AC1209CAD4600B948D9 /* Debug */,
+				B3289AC2209CAD4600B948D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3CFF59E209220E3000F0F39 /* Build configuration list for PBXNativeTarget "deathNote" */ = {
+		B3289AC3209CAD4600B948D9 /* Build configuration list for PBXNativeTarget "deathNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3CFF59F209220E3000F0F39 /* Debug */,
-				B3CFF5A0209220E3000F0F39 /* Release */,
+				B3289AC4209CAD4600B948D9 /* Debug */,
+				B3289AC5209CAD4600B948D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3CFF5A1209220E3000F0F39 /* Build configuration list for PBXNativeTarget "deathNoteTests" */ = {
+		B3289AC6209CAD4600B948D9 /* Build configuration list for PBXNativeTarget "deathNoteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3CFF5A2209220E3000F0F39 /* Debug */,
-				B3CFF5A3209220E3000F0F39 /* Release */,
+				B3289AC7209CAD4600B948D9 /* Debug */,
+				B3289AC8209CAD4600B948D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3CFF5A4209220E3000F0F39 /* Build configuration list for PBXNativeTarget "deathNoteUITests" */ = {
+		B3289AC9209CAD4600B948D9 /* Build configuration list for PBXNativeTarget "deathNoteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3CFF5A5209220E3000F0F39 /* Debug */,
-				B3CFF5A6209220E3000F0F39 /* Release */,
+				B3289ACA209CAD4600B948D9 /* Debug */,
+				B3289ACB209CAD4600B948D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B3CFF56E209220E2000F0F39 /* Project object */;
+	rootObject = B3289A93209CAD4400B948D9 /* Project object */;
 }
