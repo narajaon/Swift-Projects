@@ -14,6 +14,8 @@
 		B3289AA9209CAD4500B948D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3289AA7209CAD4500B948D9 /* LaunchScreen.storyboard */; };
 		B3289AB4209CAD4600B948D9 /* deathNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3289AB3209CAD4600B948D9 /* deathNoteTests.swift */; };
 		B3289ABF209CAD4600B948D9 /* deathNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3289ABE209CAD4600B948D9 /* deathNoteUITests.swift */; };
+		B3BA33B420A0574200E9E3CD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BA33B320A0574200E9E3CD /* TableViewCell.swift */; };
+		B3BA33B620A05EE700E9E3CD /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BA33B520A05EE700E9E3CD /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B3289ABA209CAD4600B948D9 /* deathNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deathNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3289ABE209CAD4600B948D9 /* deathNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deathNoteUITests.swift; sourceTree = "<group>"; };
 		B3289AC0209CAD4600B948D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BA33B320A0574200E9E3CD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B3BA33B520A05EE700E9E3CD /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				B3289A9E209CAD4400B948D9 /* AppDelegate.swift */,
 				B3289AA0209CAD4400B948D9 /* ViewController.swift */,
+				B3BA33B520A05EE700E9E3CD /* AddViewController.swift */,
 				B3289AA2209CAD4400B948D9 /* Main.storyboard */,
+				B3BA33B320A0574200E9E3CD /* TableViewCell.swift */,
 				B3289AA5209CAD4500B948D9 /* Assets.xcassets */,
 				B3289AA7209CAD4500B948D9 /* LaunchScreen.storyboard */,
 				B3289AAA209CAD4500B948D9 /* Info.plist */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BA33B420A0574200E9E3CD /* TableViewCell.swift in Sources */,
 				B3289AA1209CAD4400B948D9 /* ViewController.swift in Sources */,
+				B3BA33B620A05EE700E9E3CD /* AddViewController.swift in Sources */,
 				B3289A9F209CAD4400B948D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

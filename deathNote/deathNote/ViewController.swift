@@ -20,26 +20,30 @@ class Victim {
     }
 }
 
-let VictimList : [Victim] = [
-    Victim(name: "vict1", desc: "death1", death: "date1"),
-    Victim(name: "vict2", desc: "death2", death: "date2"),
-    Victim(name: "vict3", desc: "death3", death: "date3")
-]
+var VictimList : [Victim] = []
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableView: UITableView!
     
+    @IBAction func unWindSegue(segue: UIStoryboardSegue) {
+        if segue.identifier == "victimAdded" {
+            if let vc = segue.source as? AddViewController {
+                VictimList.append(vc.victimAdded)
+            }
+            tableView.reloadData()
+        }
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 1
+        return VictimList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "victimCell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "victimCell") as! VictimTableViewCell
         
-        return cell!
+        cell.proto = VictimList[indexPath.row]
+        return cell
     }
-    
-
 }
 
