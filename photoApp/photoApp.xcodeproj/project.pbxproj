@@ -15,6 +15,7 @@
 		B3BA33CE20A0A93A00E9E3CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BA33CC20A0A93A00E9E3CD /* LaunchScreen.storyboard */; };
 		B3BA33D920A0A93A00E9E3CD /* photoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BA33D820A0A93A00E9E3CD /* photoAppTests.swift */; };
 		B3BA33E420A0A93A00E9E3CD /* photoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BA33E320A0A93A00E9E3CD /* photoAppUITests.swift */; };
+		B3FA99E420A599F000253B3D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA99E320A599F000253B3D /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B3BA33DF20A0A93A00E9E3CD /* photoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BA33E320A0A93A00E9E3CD /* photoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoAppUITests.swift; sourceTree = "<group>"; };
 		B3BA33E520A0A93A00E9E3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FA99E320A599F000253B3D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				B3BA33C320A0A93800E9E3CD /* AppDelegate.swift */,
 				B3BA33C520A0A93800E9E3CD /* ViewController.swift */,
+				B3FA99E320A599F000253B3D /* Model.swift */,
 				B3BA33C720A0A93800E9E3CD /* Main.storyboard */,
 				B3BA00EE20A2F84E00EFE62C /* ImageCollectionViewCell.swift */,
 				B3BA33CA20A0A93A00E9E3CD /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 				B3BA00EF20A2F84E00EFE62C /* ImageCollectionViewCell.swift in Sources */,
 				B3BA33C620A0A93800E9E3CD /* ViewController.swift in Sources */,
 				B3BA33C420A0A93800E9E3CD /* AppDelegate.swift in Sources */,
+				B3FA99E420A599F000253B3D /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

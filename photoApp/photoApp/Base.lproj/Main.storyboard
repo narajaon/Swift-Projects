@@ -44,7 +44,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="176" height="144"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nd8-fl-jeb">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nd8-fl-jeb">
                                                             <rect key="frame" x="0.0" y="0.0" width="176" height="144"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
@@ -55,14 +55,20 @@
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
+                                                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="3eE-9R-sbm">
+                                                            <rect key="frame" x="78" y="62" width="20" height="20"/>
+                                                        </activityIndicatorView>
                                                     </subviews>
                                                 </view>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="Ep8-7g-ZRX" secondAttribute="bottom" id="6ZS-kL-DPI"/>
+                                                    <constraint firstItem="3eE-9R-sbm" firstAttribute="centerY" secondItem="Svr-Xp-N2H" secondAttribute="centerY" id="KQz-hI-Dh2"/>
                                                     <constraint firstAttribute="trailing" secondItem="Ep8-7g-ZRX" secondAttribute="trailing" id="VGu-JS-hzB"/>
+                                                    <constraint firstItem="3eE-9R-sbm" firstAttribute="centerX" secondItem="Svr-Xp-N2H" secondAttribute="centerX" id="kVX-uI-qCS"/>
                                                     <constraint firstItem="Ep8-7g-ZRX" firstAttribute="leading" secondItem="Svr-Xp-N2H" secondAttribute="leading" id="mlz-oh-uss"/>
                                                 </constraints>
                                                 <connections>
+                                                    <outlet property="activityIndicator" destination="3eE-9R-sbm" id="Lvq-2V-6HC"/>
                                                     <outlet property="galeryImage" destination="Nd8-fl-jeb" id="gHV-Lu-FP0"/>
                                                     <outlet property="galeryImageName" destination="Ep8-7g-ZRX" id="4Xj-DP-vf9"/>
                                                 </connections>
