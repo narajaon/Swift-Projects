@@ -24,6 +24,6 @@ let Galery: [ImgData] = [
     ImgData(name: "Lion", source: "https://images8.alphacoders.com/712/712496.jpg"),
     ImgData(name: "Space", source: "https://www.wallpaperup.com/uploads/wallpapers/2015/03/06/633001/e451afd64ff8e4a793d8b5f009816cee.jpg"),
     ImgData(name: "Fractal", source: "https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Fractal-Background-Download-Free-PIC-WPE007453.jpg"),
-    ImgData(name: "Batman", source: "https://wallpaper.wiki/wp-content/uploads/2017/06/Ultra-HD-4K-Batman-Wallpapers.jpg"),
+    ImgData(name: "Batman", source: "https://wallpaper.wiki/wp-content/uploads/2017/06/Ultra-HD-4K-Batman-Wallpapers.jpg"),	
     ImgData(name: "Test", source: "Googlelol")
 ]
